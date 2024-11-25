@@ -2,7 +2,7 @@
 %undefine _debugsource_packages
 
 Name: lxqt-wayland-session
-Version: 0.1.0
+Version: 0.1.1
 %if 0%{?git:1}
 Release: 0.%git.1
 Source0: %{name}-%{git}.tar.xz
