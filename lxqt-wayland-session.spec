@@ -2,7 +2,7 @@
 %undefine _debugsource_packages
 
 Name: lxqt-wayland-session
-Version: 0.1.1
+Version: 0.2.0
 %if 0%{?git:1}
 Release: 0.%git.1
 Source0: %{name}-%{git}.tar.xz
@@ -59,3 +59,5 @@ Wayland session manager for the LXQt desktop.
 %{_datadir}/themes/Vent
 %{_datadir}/themes/Vent-dark
 %{_datadir}/wayland-sessions/lxqt-wayland.desktop
+%{_mandir}/man1/lxqt-wayland-session.1*
+%{_mandir}/man1/startlxqtwayland.1*
