@@ -2,7 +2,7 @@
 %undefine _debugsource_packages
 
 Name: lxqt-wayland-session
-Version: 0.2.0
+Version: 0.3.0
 %if 0%{?git:1}
 Release: 0.%git.1
 Source0: %{name}-%{git}.tar.xz
@@ -52,6 +52,7 @@ Wayland session manager for the LXQt desktop.
 %endif
 
 %files
+%{_bindir}/lxqt-qdbus
 %{_bindir}/startlxqtwayland
 %{_datadir}/lxqt/graphics/*
 %{_datadir}/lxqt/wallpapers/*
